@@ -67,9 +67,18 @@ class _HomePageState extends State<HomePage> {
                 )
               ),
             ),
-          )
+          ),
+          SizedBox(height: 25,),
 
           //horizontal listview of coffee tiles
+          Expanded(
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              children: [
+
+              ],
+            ),
+          )
         ],
       ),
     );
